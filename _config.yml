@@ -13,25 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+lang: en-US
+title: "Bruno Vicco | Software Engineer - Generative AI & Data Science"
+email: "bfvicco@gmail.com"
+description: >
+  Building bridges between business and technology with Generative AI.
+  Specializing in LLMs, RAG, and Conversational Agents to solve complex challenges.
+repository: "brunovicco/brunovicco.github.io"
+github_username: "bfvicco"
+url: "https://brunovicco.github.io"
+minimal_mistakes_skin: "air"
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+#remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 5
+paginate_path: "/page:num/"
+timezone: America/Sao_Paulo
 
 include:
   - _pages
@@ -58,34 +60,29 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "Bruno Vicco"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Software Engineer (GenAI) @ Itaú Unibanco. Passionate about LLMs, RAG, and translating complex problems into impactful solutions."
+  location: "São Paulo, Brazil"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/brunovicco/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/brunovicco"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:bfvicco@gmail.com"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/brunovicco/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/brunovicco"
 
 defaults:
   # _posts
@@ -96,16 +93,24 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
-  # _pages
+  # _pages (inglês)
   - scope:
-      path: "_pages"
+      path: "_pages/en"
       type: pages
     values:
       layout: single
       author_profile: true
+      lang: en
+  # _pages (português)
+  - scope:
+      path: "_pages/pt"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      lang: pt
 
 category_archive:
   type: liquid

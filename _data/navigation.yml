@@ -1,9 +1,23 @@
-main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+# /_data/navigation.yml
+
+# Menu de Navegação em Inglês (Primary)
+main_en:
   - title: "About"
     url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "PT-BR"
+    url: /pt/
+
+# Menu de Navegação em Português (Secondary)
+main_pt:
+  - title: "Sobre"
+    url: /pt/sobre/
+  - title: "Blog"
+    url: /pt/blog/
+  - title: "Portfólio"
+    url: /pt/portfolio/
+  - title: "EN"
+    url: /

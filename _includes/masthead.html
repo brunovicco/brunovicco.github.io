@@ -1,7 +1,5 @@
-<h1 style="background-color: yellow; color: black; text-align: center;">TESTE HELLO WORLD</h1>
-
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
-<h1 style="background-color: yellow; color: black; text-align: center;">TESTE HELLO WORLD</h1>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -13,22 +11,24 @@
           {{ site.masthead_title | default: site.title | escape_once | strip }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
         </a>
+
         <ul class="visible-links">
-          {% comment %} Início da nossa modificação {% endcomment %}
           {% if page.lang == 'pt' %}
-          {%- assign navigation = site.data.navigation.main_pt -%}
+            {%- assign navigation = site.data.navigation.main_pt -%}
           {% else %}
-          {%- assign navigation = site.data.navigation.main_en -%}
+            {%- assign navigation = site.data.navigation.main_en -%}
           {% endif %}
-          {% comment %} Fim da nossa modificação {% endcomment %}
-        
           {%- for link in navigation -%}
-          <li class="masthead__menu-item">
-            <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif %} {% if
-              link.target %} target="{{ link.target }}" {% endif %}>{{ link.title }}</a>
-          </li>
+            <li class="masthead__menu-item">
+              <a
+                href="{{ link.url | relative_url }}"
+                {% if link.description %} title="{{ link.description }}"{% endif %}
+                {% if link.target %} target="{{ link.target }}"{% endif %}
+              >{{ link.title }}</a>
+            </li>
           {%- endfor -%}
         </ul>
+
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>

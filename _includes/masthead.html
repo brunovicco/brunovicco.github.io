@@ -13,7 +13,7 @@
         </a>
 
         <ul class="visible-links">
-          {% if page.lang == 'pt' %}
+          {% if page.url contains '/pt/' %}
             {%- assign navigation = site.data.navigation.main_pt -%}
           {% else %}
             {%- assign navigation = site.data.navigation.main_en -%}

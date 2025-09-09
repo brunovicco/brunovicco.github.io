@@ -2,7 +2,7 @@
 title: "Portfólio"
 layout: collection
 permalink: /pt/portfolio/
-collection: portfolio # Usa a mesma coleção de projetos
+collection: portfolio
 entries_layout: grid
 lang: pt
 ---

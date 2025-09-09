@@ -1,6 +1,6 @@
 ---
-# /_pages/en/01-about.md
 title: "About"
+layout: single
 permalink: /about/
 lang: en
 ---

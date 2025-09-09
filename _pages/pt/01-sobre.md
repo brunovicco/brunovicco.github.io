@@ -1,42 +1,41 @@
 ---
-# /_pages/en/02-blog.md
-title: "Blog"
-layout: posts # Layout especial para listar posts
-permalink: /blog/
-lang: en
+title: "Sobre"
+layout: single
+permalink: /pt/sobre/
+lang: pt
 ---
 
-My career has been a journey of two distinct yet complementary worlds: the structured, high-stakes environment of corporate banking and the dynamic, fast-paced frontier of technology and Artificial Intelligence. For over 17 years, I built a career in one of Latin America's largest public banks, managing strategic relationships with multinational giants like Embraer and Johnson & Johnson, structuring complex credit operations, and translating business needs into financial solutions. This experience gave me a deep understanding of corporate strategy, risk management, and what it truly takes to drive business results.
+Minha carreira tem sido uma jornada por dois mundos distintos, mas complementares: o ambiente estruturado e de alto impacto da área de corporate banking e a fronteira dinâmica e acelerada da tecnologia e da Inteligência Artificial. Por mais de 17 anos, construí minha carreira em um dos maiores bancos públicos da América Latina, gerenciando relacionamentos estratégicos com gigantes multinacionais como Embraer e Johnson & Johnson, estruturando operações de crédito complexas e traduzindo necessidades de negócio em soluções financeiras. Essa experiência me proporcionou um profundo entendimento de estratégia corporativa, gestão de riscos e do que é realmente necessário para impulsionar resultados de negócios.
 
-But I've always been driven by a desire to build, solve, and innovate. This passion led me to pivot my career and dive headfirst into technology, earning a degree in Data Science and embracing the world of software engineering.
+Mas sempre fui movido pelo desejo de construir, resolver problemas e inovar. Essa paixão me levou a fazer uma transição de carreira e mergulhar de cabeça em tecnologia, graduando-me em Ciência de Dados e abraçando o mundo da engenharia de software.
 
-### From Banking to AI Engineering
+### Da Banca à Engenharia de IA
 
-Today, as a **Software Engineer at Itaú Unibanco**, I'm part of a squad developing a new generation of investment tools powered by Generative AI. Here, I apply my problem-solving skills to build solutions that help people make better financial decisions, leveraging technologies like **Python, LangChain, and advanced RAG (Retrieval-Augmented Generation)** architectures.
+Hoje, como **Engenheiro de Software no Itaú Unibanco**, faço parte de uma squad que desenvolve uma nova geração de ferramentas de investimento impulsionadas por IA Generativa. Aqui, aplico minhas habilidades de resolução de problemas para construir soluções que ajudam as pessoas a tomar melhores decisões financeiras, utilizando tecnologias como **Python, LangChain e arquiteturas avançadas de RAG (Retrieval-Augmented Generation)**.
 
-Before joining Itaú, I led the development of a corporate virtual assistant at **Banco do Brasil**. This project was a masterclass in applying conversational AI to solve real-world problems. We created a multimodal assistant that transformed the internal user experience, handling everything from technical support queries to automated access approvals and dynamic report generation through natural language.
+Antes de ingressar no Itaú, liderei o desenvolvimento de um assistente virtual corporativo no **Banco do Brasil**. Este projeto foi uma verdadeira aula sobre a aplicação de IA conversacional para resolver problemas do mundo real. Criamos um assistente multimodal que transformou a experiência do usuário interno, gerenciando desde consultas de suporte técnico até aprovações de acesso automatizadas e geração de relatórios dinâmicos por meio de linguagem natural.
 
-My philosophy is simple: **"If I don't know yet, I'll research, interact, learn, seek help, make it happen, and share."** This mindset is the bridge that connects my past and present, allowing me to translate complex business challenges into robust, effective technical solutions.
+Minha filosofia é simples: **"Se eu ainda não sei, vou pesquisar, interagir, aprender, pedir ajuda, fazer acontecer e compartilhar."** Essa mentalidade é a ponte que conecta meu passado e presente, permitindo-me traduzir desafios de negócio complexos em soluções técnicas robustas e eficazes.
 
-This blog is where I share the lessons learned from that journey—from navigating a major career transition to exploring the latest in AI, software development, and the intersection of finance and technology.
+Este blog é onde compartilho as lições aprendidas nessa jornada — desde a navegação por uma grande transição de carreira até a exploração do que há de mais recente em IA, desenvolvimento de software e na interseção entre finanças e tecnologia.
 
-### Core Competencies & Tech Stack
+### Principais Competências & Tech Stack
 
-Here's a snapshot of the tools and technologies I work with daily:
+Aqui está um resumo das ferramentas e tecnologias com as quais trabalho diariamente:
 
-* **AI & Machine Learning:**
-    * **Models & Platforms:** OpenAI, Gemini, Claude, Vertex AI
-    * **Techniques:** Prompt Engineering (CoT, RAG, Few-Shot), LLMs, MLOps
+* **IA & Machine Learning:**
+    * **Modelos & Plataformas:** OpenAI, Gemini, Claude, Vertex AI
+    * **Técnicas:** Engenharia de Prompt (CoT, RAG, Few-Shot), LLMs, MLOps
     * **Frameworks:** LangChain, LangGraph, crewAI, Hugging Face
 
-* **Development & Infrastructure:**
-    * **Languages:** Python, JavaScript, SQL
+* **Desenvolvimento & Infraestrutura:**
+    * **Linguagens:** Python, JavaScript, SQL
     * **Backend & APIs:** FastAPI, Node.js
     * **Cloud & DevOps:** AWS, Azure, GCP, Docker, Kubernetes, CI/CD
 
-* **Data & Observability:**
-    * **Databases:** MongoDB, Redis, MySQL
-    * **Monitoring:** Grafana, Datadog
-    * **Processing:** Kafka, ETL
+* **Dados & Observabilidade:**
+    * **Bancos de Dados:** MongoDB, Redis, MySQL
+    * **Monitoramento:** Grafana, Datadog
+    * **Processamento:** Kafka, ETL
 
-I am always learning and experimenting with new technologies. Thank you for visiting, and I hope you find the content here valuable.
+Estou sempre aprendendo e experimentando novas tecnologias. Obrigado pela visita e espero que você considere o conteúdo aqui valioso.
